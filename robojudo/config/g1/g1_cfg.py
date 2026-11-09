@@ -118,7 +118,12 @@ class g1_locomimic(RlLocoMimicPipelineCfg):
     """
 
     robot: str = "g1"
-    env: G1MujocoEnvCfg = G1MujocoEnvCfg()
+    env: G1RealEnvCfg = G1RealEnvCfg(
+        env_type = "UnitreeCppEnv",
+        unitree=G1UnitreeCfg(
+            net_if="enP7s7",
+        )
+    )
 
     ctrl: list[KeyboardCtrlCfg | JoystickCtrlCfg] = [
         KeyboardCtrlCfg(
