@@ -1,7 +1,7 @@
 <div align="center">
-<h1>RoboJuDo 🤖</h1>
+<h1>RoboJoJo 🤖</h1>
 
-*A plug-and-play deploy framework for robots. Just deploy, just do.*
+*PARC lab's fork of a plug-and-play deploy framework for robots. Just deploy, just do.*
 
 <h3>
 🔗 RoboJuDo is part of the FRoM-W1 project, check it out at 👉 
